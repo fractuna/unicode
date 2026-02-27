@@ -1,7 +1,0 @@
-#!/bin/env bash
-
-src=(*.py)
-
-for i in ${src[@]}; do
-  ./$i 3 >> $i.txt
-done
